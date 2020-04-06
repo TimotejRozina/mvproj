@@ -18,6 +18,7 @@
  */
 return [
     'About' => 'O nas',
+    'About1' => 'O nas 1',
     'Adverts' => 'Oglasi',
     'Avtor' => 'Avtor',
     'Home' => 'Domov',

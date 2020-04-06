@@ -38,8 +38,8 @@ AppAsset::register($this);
     $menuItems = [
         ['label' => Yii::t('app','Home'), 'url' => ['/site/index']],
         ['label' => Yii::t('app','About'), 'url' => ['/site/about']],
-        ['label' => 'Contact', 'url' => ['/site/contact']],
-        ['label' => 'About1', 'url' => ['/site/about1']],
+        ['label' => Yii::t('app','Contact'), 'url' => ['/site/contact']],
+        ['label' => Yii::t('app','About1'), 'url' => ['/site/about1']],
     ];
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
